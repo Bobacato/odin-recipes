@@ -41,6 +41,11 @@ to just being div-container as they all will have the same css code */
 .div-container *{
     background-color: lightgrey;
     list-style-type: none;
+    margin: 10px;
+}
+
+.div-container li{
+    margin: 50px;
 }
 
 .photo cite {

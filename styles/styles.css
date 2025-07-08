@@ -26,12 +26,9 @@ h1{
     border: 1px solid black;
     padding: 5px;
     display: block;
+    background-color: lightgrey;
 }
 .ingredients-container h2{
     text-decoration: underline;
-
 }
 
-.ingredients-container * {
-    background-color: lightgrey
-}

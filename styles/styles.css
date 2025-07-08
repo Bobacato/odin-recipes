@@ -21,20 +21,21 @@ h1{
     /* background-color: whitesmoke; */
 }
 
-.ingredients-container {
+.ingredients-container, .method-container {
     padding: 5px lightgrey;
     display: block;
     background-color: lightgrey;
     text-align: center;
     border-radius: 10px;
+    margin-bottom: 15px;
 
 }
-.ingredients-container h2{
-    text-decoration: underline;
+.ingredients-container h2, .method-container h2{
+    font-size: 32px;
+    border-bottom: 1px solid;
 }
-.ingredients-container * {
+.ingredients-container *, .method-container *{
     background-color: lightgrey;
     list-style-type: none;
 }
-
 

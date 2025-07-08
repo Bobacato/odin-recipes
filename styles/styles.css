@@ -1,4 +1,14 @@
+* {
+    font-family: "Courier New";
+
+}
+
 img {
     height: 350px;
     width: auto;
+    margin-bottom: 4px;
+}
+
+h1{
+    text-align: center;
 }

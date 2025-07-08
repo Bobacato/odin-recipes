@@ -21,7 +21,11 @@ h1{
     /* background-color: whitesmoke; */
 }
 
-.ingredients-container, .method-container {
+/* Because the recipies all the components look good with the section
+ive changed it from being a descriptive name i.e. (ingredients-container)
+to just being div-container as they all will have the same css code */
+
+.div-container{
     padding: 5px lightgrey;
     display: block;
     background-color: lightgrey;
@@ -30,11 +34,11 @@ h1{
     margin-bottom: 15px;
 
 }
-.ingredients-container h2, .method-container h2{
+.div-container h2{
     font-size: 32px;
     border-bottom: 1px solid;
 }
-.ingredients-container *, .method-container *{
+.div-container *{
     background-color: lightgrey;
     list-style-type: none;
 }

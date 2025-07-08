@@ -15,7 +15,7 @@ img {
 
 h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 900;
     border-bottom: 1px black solid;
     /* background-color: whitesmoke; */
@@ -43,3 +43,7 @@ to just being div-container as they all will have the same css code */
     list-style-type: none;
 }
 
+.photo cite {
+    display: inline-block;
+    padding-top:0px;
+}
